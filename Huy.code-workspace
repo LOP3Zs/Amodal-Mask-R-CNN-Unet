@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "Huy",
+			"path": "../../.Trash/Huy"
+		},
+		{
+			"name": "Thang",
+			"path": "../../.Trash/Thang"
+		},
+		{
+			"name": "Thinh",
+			"path": "../../.Trash/Thinh"
+		},
+		{
+			"name": "Amodal-Mask-R-CNN-Unet",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
