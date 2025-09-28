@@ -56,7 +56,7 @@ class COCOADataset(Dataset):
         
         for ann in anns:
             # Mask từ polygon
-            visible_mask = polygon_to_mask(ann['coarse_visible_mask'], height, width)
+            visible_mask = polygon_to_mask(ann['visible_mask'], height, width)
             masks.append(visible_mask)
             
             # BBox [x,y,w,h] -> [x1,y1,x2,y2]

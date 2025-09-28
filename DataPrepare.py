@@ -303,8 +303,8 @@ def create_cocoa_format(coco_json: str, output_json: str, depth_dir: str):
     print(f"💡 File này sẽ được convert bởi script AIstron preprocessing")
 
 if __name__ == "__main__":
-    coco_json = "train/_annotations.coco.json"
-    output_json = "train/cocoa_format_annotations.json"
-    depth_dir = "train/depth"
+    coco_json = "Datasets/train/_annotations.coco.json"
+    output_json = "Datasets/train/cocoa_format_annotations.json"
+    depth_dir = "Datasets/train/depth"
     
     create_cocoa_format(coco_json, output_json, depth_dir)

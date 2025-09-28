@@ -6,9 +6,6 @@ from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn   import MaskRCNNPredictor
 
 # ==== import dataset, collate_fn bạn đã viết ====
-# from your_dataset_file import COCOADataset, collate_fn   # nếu tách file
-# Ở đây giả sử bạn đã có COCOADataset(json_path, img_dir) và collate_fn
-
 def make_model(num_classes=5, freeze_backbone_epochs=0):
     """num_classes = 1 + K; với K=4 => num_classes=5."""
     weights = MaskRCNN_ResNet50_FPN_Weights.DEFAULT  # pretrained COCO
